@@ -1,7 +1,5 @@
-->_<| *Beta VHSelfbot* |>_<-
-
+->_<| *Aiman Selfbot* |>_<-
 *Command :*
-
 * Me
 * Clear
 * Tagall
@@ -29,20 +27,6 @@
 * Smule download {url}
 * Starmaker download {url}
 * Cocofun download {url}
-* Xxx-search {query}
-* Xxx-download {link}
-* Lk21 {query}
-* Neonimesearch {query}
-* Nekopoisearch {query}
-* Nekohentai
-* Neko3d
-* Nekojavcosplay
-* Nekonewepisode
-* Nekojavlist
-* Ongoinganoboy
-* Nhentaisearch {query}
-* Nhentaidownload {query}
-* Nhentairandom
 * Joox {query}
 * Lirik {query}
 * Chord {query}
@@ -75,7 +59,6 @@
 * Heroml {query}
 * Ipwho {IP_ADDR}
 * Textsceen {query}
-* Ceritasex
 * Randompuisi
 * Randompantun
 * Quoteid
@@ -108,7 +91,4 @@
 * Spadlock {query}|{query}
 * Giftext {query)
 * Sgiftext {query)
-
-Rest API's : VHTear
-
-->_<| *Beta VHSelfbot* |>_<-
+->_<| *Aiman Selfbot* |>_<-
