@@ -31,7 +31,7 @@ const {
 	Searchanime
 } = require('./Liberary/VHtearFunc');
 
-const PremiumKey = "Chat to buy https://wa.me/6281238552767"
+const PremiumKey = "Chat to buy https://wa.me/60102810046"
 const Host = "https://api.vhtear.com"
 
 function os_func() {
@@ -89,7 +89,7 @@ async function SBVHtear() {
                 //Jika ingin public if (!m.key.fromMe) {
                 if (m.key.fromMe) {
 			if (txt == "hi") {
-				VHsendMessage(VH, to, "Hi sayang!!!")
+				VHsendMessage(VH, to, "Aiman")
 			} else if (txt == "me") {
 				VHsendMention(VH, to, "Hey @VHtears" + VH.user.jid, [VH.user.jid])
 				VHsendContact(VH, to, "VHtear", VH.user.jid)
@@ -430,7 +430,7 @@ async function SBVHtear() {
 								dat += "\nTitle: " + mek.title
 								dat += "\nSize: " + mek.size
 								dat += "\nExt: " + mek.ext
-								dat += "\n\n->_<| Beta VHSelfbot |>_<-"
+								dat += "\n\n->_<|Selfbot |>_<-"
 								await VHsendVideoUrl(VH, to, mek.UrlVideo, dat)
 								await VHsendAudioUrl(VH, to, mek.UrlMp3, "")
 							}
@@ -447,7 +447,7 @@ async function SBVHtear() {
 							dat += "\nTitle: " + mek.title
 							dat += "\nSize: " + mek.size
 							dat += "\nExt: " + mek.ext
-							dat += "\n\n->_<| Beta VHSelfbot |>_<-"
+							dat += "\n\n->_<| Aiman Selfbot |>_<-"
 							await VHsendVideoUrl(VH, to, mek.UrlVideo, dat)
 							await VHsendAudioUrl(VH, to, mek.UrlMp3, "")
 						} catch (err) {
@@ -464,7 +464,7 @@ async function SBVHtear() {
 							dat += "\nDuration: " + mek.duration
 							dat += "\nSize: " + mek.size
 							dat += "\nExt: " + mek.ext
-							dat += "\n\n->_<| Beta VHSelfbot |>_<-"
+							dat += "\n\n->_<| Aiman Selfbot |>_<-"
 							await VHsendImageUrl(VH, to, mek.image, dat)
 							await VHsendAudioUrl(VH, to, mek.mp3, "")
 						} catch (err) {
@@ -600,7 +600,7 @@ async function SBVHtear() {
 				for (var iu = 0; iu < cok.length; iu++) {
 					dat += "\n*_Title_*: " + cok[iu].judul
 					dat += "\n*_Description_*: " + cok[iu].desc
-					dat += "\n\n*VHtear Selfbot*"
+					dat += "\n\n*Aiman Selfbot*"
 					VHsendImageUrl(VH, to, cok[iu].image, dat)
 					VHsendVideoUrl(VH, to, cok[ui].url)
 				}
@@ -805,14 +805,14 @@ async function SBVHtear() {
 				const response = await Requests(Host + "/branly?query=" + vhani + "&apikey=" + PremiumKey)
 				const datas = await response.json()
 				const asu = datas.result
-				let fox = "*VHSelfbot*\n\n" + asu.data
+				let fox = "*Aiman Selfbot*\n\n" + asu.data
 				VHsendMessage(VH, to, fox)
 			} else if (txt.startsWith("kbbi")) {
 				const vhani = txt.replace('kbbi' + " ", "")
 				const response = await Requests(Host + "/kbbi?query=" + vhani + "&apikey=" + PremiumKey)
 				const datas = await response.json()
 				const asu = datas.result
-				let fox = "*VHSelfbot*\n\n" + asu.hasil
+				let fox = "*Aiman Selfbot*\n\n" + asu.hasil
 				fox += "\n\n\nSource :" + asu.source
 				VHsendMessage(VH, to, fox)
 			} else if (txt.startsWith("calcu")) {
@@ -848,7 +848,7 @@ async function SBVHtear() {
 				const response = await Requests(Host + "/weather?city=" + vhani + "&apikey=" + PremiumKey)
 				const datas = await response.json()
 				const asu = datas.result
-				let fox = "*VHSelfbot*\n\n" + asu.weather
+				let fox = "*Aiman Selfbot*\n\n" + asu.weather
 				fox += "\n" + asu.location
 				fox += "\n\nMedia : https://api.vhtear.com"
 				VHsendMessage(VH, to, fox)
@@ -1456,7 +1456,7 @@ async function SBVHtear() {
 					dat += "\n*_Artis_*: " + cok[iu].penyanyi
 					dat += "\n*_Duration_*: " + cok[iu].duration
 					dat += "\n*_Size_*: " + cok[iu].filesize
-					dat += "\n\n*VHtear Selfbot*"
+					dat += "\n\n*Aiman Selfbot*"
 					VHsendImageUrl(VH, to, cok[iu].linkImg, dat)
 					VHsendAudioUrl(VH, to, `${cok[iu].linkMp3}`, "joox")
 				}
