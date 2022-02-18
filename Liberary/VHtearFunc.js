@@ -1,4 +1,4 @@
-'Build 1.3 VHtear Selfbot > Thank to Baileys'
+'Build 1.3 Aiman Selfbot > Thank to Baileys'
 
 const {
 	MessageType,
